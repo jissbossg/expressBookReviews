@@ -1,0 +1,19 @@
+{
+  "name": "expressbookreviews",
+  "version": "1.0.0",
+  "description": "IBM final project — Book Review Application (CommonJS + session)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
